@@ -1,0 +1,15 @@
+.swiper-slide div {
+  position: absolute;
+  right: 16%;
+  bottom: 8%;
+  margin-left: -18.75rem;
+  width: 12.5rem;
+  height: 2.1rem;
+  font-size: 0.875rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+.swiper-slide img {
+  width: 18.75rem;
+  height: 33.35rem;
+  background-size: 100%;
+}

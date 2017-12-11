@@ -1,0 +1,164 @@
+html {
+  font-size: 5.3333333333333vw;
+}
+.juzhong {
+  text-align: center;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: none;
+  vertical-align: top;
+  font-weight: normal;
+}
+.bottom {
+  width: 100%;
+  background-color: #f7f7fa;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom div {
+  flex: 1;
+}
+.bottom div:nth-child(1) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(1) div {
+  background: url('../images/1-5/6icon.png') no-repeat -7.125rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(1) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(2) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(2) div {
+  background: url('../images/1-5/6icon.png') no-repeat -8.5rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(2) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(3) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(3) div {
+  background: url('../images/1-5/6icon.png') no-repeat -10.25rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(3) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(4) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(4) div {
+  background: url('../images/1-5/6icon.png') no-repeat 0rem -1.85rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(4) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(5) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(5) div {
+  background: url('../images/1-5/6icon.png') no-repeat -1.75rem -1.55rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(5) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.head {
+  margin-top: 1.625rem;
+  margin-left: 2.0rem;
+}
+.head input {
+  border: none;
+  margin-bottom: 0.625rem;
+}
+.fanhui {
+  left: 0.5rem;
+  position: absolute;
+  top: 1.625rem;
+}
+.fanhui img {
+  width: 0.35rem;
+  height: 0.6rem;
+}
+.icon1 {
+  right: 0.5rem;
+  position: absolute;
+  top: 1.625rem;
+}
+.icon1 img {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.fengge {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.75rem;
+}
+.pinpai {
+  height: 2.0rem;
+  width: 18.75rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.pinpai p:nth-child(1) {
+  width: 9.375rem;
+  font-size: 1.0rem;
+}
+.pinpai p:nth-child(2) {
+  width: 9.375rem;
+  font-size: 1.0rem;
+  border-bottom: 0.05rem solid #e7e7e7;
+}
+.zimu li {
+  width: 18.75rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  font-size: 0.75rem;
+  padding-left: 0.75rem;
+  border-bottom: 0.05rem solid #c1c8d2;
+}
+.zimu li:nth-child(1),
+.zimu li:nth-child(3),
+.zimu li:nth-child(13) {
+  background: #c1c8d2;
+  font-weight: bold;
+}

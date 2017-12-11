@@ -1,0 +1,105 @@
+.icon {
+  width: 6.5rem;
+  height: 4.875rem;
+  margin-top: 5.675rem;
+}
+.icon2 {
+  width: 6.875rem;
+  height: 0.6rem;
+  margin-top: 1.4rem;
+  margin-bottom: 3.0rem;
+}
+.touxiang {
+  width: 12.8rem;
+  height: 2.0rem;
+  border: 1px solid #c8584a;
+  margin: 0 auto;
+}
+.touxiang h5 {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0.25rem 0.5rem 0;
+  background: url('../images/1-5/6icon.png') no-repeat -0.2rem -1.85rem;
+  background-size: 12.5rem;
+  float: left;
+}
+.touxiang input {
+  padding: 0.525rem 0.25rem;
+  border: none;
+  float: left;
+  width: 6.25rem;
+  outline: none;
+}
+.renwu {
+  width: 12.8rem;
+  height: 2.0rem;
+  border: 1px solid #c8584a;
+  margin: 0 auto;
+  margin-top: 1.4rem;
+}
+.renwu h5 {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0.25rem 0.5rem 0;
+  background: url('../images/1-5/6icon.png') no-repeat -9.175rem -1.55rem;
+  background-size: 12.5rem;
+  float: left;
+}
+.renwu input {
+  padding: 0.525rem 0.25rem;
+  border: none;
+  float: left;
+  width: 6.25rem;
+  outline: none;
+}
+.mima {
+  width: 12.8rem;
+  margin: 0.625rem auto;
+  display: flex;
+}
+.mima div {
+  flex: 1;
+}
+.mima div input {
+  outline: none;
+}
+.mima div span {
+  font-size: 0.55rem;
+}
+.mima h5 {
+  font-size: 0.55rem;
+}
+.denglu {
+  width: 12.8rem;
+  height: 2.0rem;
+  line-height: 2.0rem;
+  background: #c8584a;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.weixin {
+  width: 12.8rem;
+  margin: 2.075rem auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.weixin h5:nth-child(1) {
+  width: 2.0rem;
+  height: 2.0rem;
+  background: url(../images/1-5/index2.png) no-repeat 0 0;
+  background-size: 12.5rem;
+}
+.weixin h5:nth-child(2) {
+  width: 2.0rem;
+  height: 2.0rem;
+  background: url(../images/1-5/index2.png) no-repeat -2.3rem 0;
+  background-size: 12.5rem;
+}
+.weixin h5:nth-child(3) {
+  width: 2.0rem;
+  height: 2.0rem;
+  background: url(../images/1-5/index2.png ) no-repeat -4.6rem 0;
+  background-size: 12.5rem;
+}

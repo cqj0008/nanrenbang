@@ -1,0 +1,68 @@
+
+
+html {
+	font-size: 5.3333333333333vw;
+}
+.juzhong {
+	text-align: center;
+	width: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: none;
+	vertical-align: top;
+	font-weight: normal;	
+}
+
+.bottom0 () {
+	.ps(@url,@a,@b) {
+	text-align: center;
+		margin-top: 0.375rem;
+		div {
+
+			background: url(@url) no-repeat @a	@b;
+			width: 1.25rem;
+			height: 1.25rem;
+			background-size: 12.5rem;
+			margin-left: 1.125rem;
+			
+		}
+		p {
+			font-size: 0.65rem;
+			padding: 0.125rem 0 0.375rem 0;
+			
+		}	
+}
+.bottom {
+	width: 100%;
+	background-color: #f7f7fa;
+	 position: fixed;
+	left: 0;
+	bottom:0;
+	display: flex;
+
+	justify-content: space-around;
+	div{
+		flex:1;
+	}
+
+	div:nth-child(1) {
+		.ps('../images/1-5/6icon.png', -7.125rem,-0.15rem)
+	}
+	div:nth-child(2) {
+		.ps('../images/1-5/6icon.png', -8.5rem,-0.15rem)
+	}
+	div:nth-child(3) {
+		.ps('../images/1-5/6icon.png', -10.25rem,-0.15rem)
+	}
+	div:nth-child(4) {
+		.ps('../images/1-5/6icon.png', -0rem,-1.85rem)
+	}
+	div:nth-child(5) {
+		.ps('../images/1-5/6icon.png', -1.75rem,-1.55rem)
+	}
+}
+}

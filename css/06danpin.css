@@ -1,0 +1,233 @@
+html {
+  font-size: 5.3333333333333vw;
+}
+.juzhong {
+  text-align: center;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: none;
+  vertical-align: top;
+  font-weight: normal;
+}
+.bottom {
+  width: 100%;
+  background-color: #f7f7fa;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom div {
+  flex: 1;
+}
+.bottom div:nth-child(1) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(1) div {
+  background: url('../images/1-5/6icon.png') no-repeat -7.125rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(1) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(2) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(2) div {
+  background: url('../images/1-5/6icon.png') no-repeat -8.5rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(2) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(3) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(3) div {
+  background: url('../images/1-5/6icon.png') no-repeat -10.25rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(3) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(4) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(4) div {
+  background: url('../images/1-5/6icon.png') no-repeat 0rem -1.85rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(4) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(5) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(5) div {
+  background: url('../images/1-5/6icon.png') no-repeat -1.75rem -1.55rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(5) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.head {
+  text-align: center;
+  margin-top: 1.625rem;
+  border-bottom: 0.05rem solid #e7e7e7;
+}
+.head p {
+  font-size: 1.0rem;
+  margin-bottom: 0.625rem;
+}
+.fanhui {
+  left: 0.5rem;
+  position: absolute;
+  top: 1.625rem;
+}
+.fanhui img {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.icon1 {
+  right: 0.5rem;
+  position: absolute;
+  top: 1.625rem;
+}
+.icon1 img {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.zhanshi {
+  margin-top: 0.75rem;
+}
+.zhanshi .kuai {
+  background: #d4e4d7;
+  margin: 0 auto 0.5rem;
+  width: 17.25rem;
+  height: 4.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+.zhanshi .kuai div p:nth-child(1) {
+  font-size: 1.25rem;
+  margin: 0.875rem 0;
+}
+.zhanshi .kuai div p:nth-child(2) {
+  font-size: 0.65rem;
+}
+.zhanshi .kuai img {
+  margin-top: 0.375rem;
+  width: 3.7rem;
+  height: 4.075rem;
+}
+.zhanshi .kuai0 {
+  background: #d4e4d7;
+  margin: 0 auto 0.5rem;
+  width: 17.25rem;
+  height: 4.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+.zhanshi .kuai0 div p:nth-child(1) {
+  font-size: 1.25rem;
+  margin: 0.875rem 0;
+}
+.zhanshi .kuai0 div p:nth-child(2) {
+  font-size: 0.65rem;
+}
+.zhanshi .kuai0 img {
+  margin-top: 0.375rem;
+  width: 2.9rem;
+  height: 4.025rem;
+}
+.zhanshi .kuai1 {
+  background: #c1c9dd;
+  margin: 0 auto 0.5rem;
+  width: 17.25rem;
+  height: 4.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+.zhanshi .kuai1 div p:nth-child(1) {
+  font-size: 1.25rem;
+  margin: 0.875rem 0;
+}
+.zhanshi .kuai1 div p:nth-child(2) {
+  font-size: 0.65rem;
+}
+.zhanshi .kuai1 img {
+  margin-top: 0.375rem;
+  width: 4.525rem;
+  height: 2.95rem;
+}
+.zhanshi .kuai2 {
+  background: #f7ebfc;
+  margin: 0 auto 0.5rem;
+  width: 17.25rem;
+  height: 4.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+.zhanshi .kuai2 div p:nth-child(1) {
+  font-size: 1.25rem;
+  margin: 0.875rem 0;
+}
+.zhanshi .kuai2 div p:nth-child(2) {
+  font-size: 0.65rem;
+}
+.zhanshi .kuai2 img {
+  margin-top: 1rem;
+  width: 4.775rem;
+  height: 2rem;
+}
+.zhanshi .kuai3 {
+  background: #c9e2e7;
+  margin: 0 auto 0.5rem;
+  width: 17.25rem;
+  height: 4.75rem;
+  display: flex;
+  justify-content: space-around;
+}
+.zhanshi .kuai3 div p:nth-child(1) {
+  font-size: 1.25rem;
+  margin: 0.875rem 0;
+}
+.zhanshi .kuai3 div p:nth-child(2) {
+  font-size: 0.65rem;
+}
+.zhanshi .kuai3 img {
+  margin-top: 0.375rem;
+  width: 4.4rem;
+  height: 3.675rem;
+}

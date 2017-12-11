@@ -1,0 +1,71 @@
+@import "comment.less";
+// 底部
+.bottom0 ();
+.bg {
+	background: #f4f4f4;
+	width: 18.75rem;
+	height: 29.0rem;
+}
+.head {
+	text-align: center;
+	margin-top: 1.625rem;
+	border-bottom: 0.05rem solid #e7e7e7;
+	p {
+		font-size: 1.0rem;
+		margin-bottom: 0.625rem;
+
+	}
+}
+.daoheng(@a:0.875rem,@b:0.875rem) {
+	position: absolute;
+	
+	top: 1.625rem;
+	img {
+		width: @a;
+		height: @b;
+	}
+}
+.fanhui {
+	
+	left: 0.5rem;
+	.daoheng(0.35rem,0.6rem);
+}
+.head1 {
+	display: flex;
+	margin-top: 1rem;
+	justify-content:space-around;
+
+	a {
+		font-size: 0.6rem;
+		padding-bottom: 0.5rem;
+		color: none;
+
+	}
+	a:nth-child(1){
+		border-bottom: 0.05rem solid red;
+	}
+}
+.fenqu {
+	display: flex;
+	width: 17.25rem;
+	height: 13.875rem;
+	margin: 0.75rem auto;
+
+	div {
+		height: 9.125rem;
+		text-align: center;
+		margin: 0.125rem;
+		img {
+			width: 8.25rem;
+			height: 11.5rem;
+		}
+		p:nth-child(2){
+			font-size: 0.6rem;
+			margin: 0.5rem 0;
+		}
+		p:nth-child(3){
+			font-size: 0.6rem;
+			color: red;
+		}
+	}
+}

@@ -1,0 +1,68 @@
+@import "comment.less";
+// 底部
+.bottom0 ();
+
+.head {
+	margin-top: 1.625rem;
+	margin-left: 2.0rem;
+	
+	input {
+		border:none;
+		margin-bottom: 0.625rem;
+	}
+}
+.daoheng(@a:0.875rem,@b:0.875rem) {
+	position: absolute;
+	
+	top: 1.625rem;
+	img {
+		width: @a;
+		height: @b;
+	}
+}
+.fanhui {
+	
+	left: 0.5rem;
+	.daoheng(0.35rem,0.6rem);
+}
+.icon1 {
+	
+	right: 0.5rem;
+	.daoheng();
+}
+.fengge {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin:0.75rem;
+}
+.pinpai {
+	height: 2.0rem;
+	width: 18.75rem;
+	display: flex;
+	justify-content:space-around;
+	text-align: center;
+	p:nth-child(1) {
+		width: 9.375rem;
+		font-size: 1.0rem;
+		// border-bottom: 0.1rem solid #e7e7e7;
+	}
+	p:nth-child(2) {
+		width: 9.375rem;
+		font-size: 1.0rem;
+		border-bottom: 0.05rem solid #e7e7e7;
+	}
+}
+.zimu {
+	li {
+		width: 18.75rem;
+		height: 1.75rem;
+		line-height: 1.75rem;
+		font-size: 0.75rem;
+		padding-left: 0.75rem;
+		border-bottom: 0.05rem solid #c1c8d2;
+	}
+	li:nth-child(1),li:nth-child(3),li:nth-child(13){
+		background:#c1c8d2; 
+		font-weight: bold;
+	}
+}

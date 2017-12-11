@@ -1,0 +1,91 @@
+@import "comment.less";
+// 底部
+.bottom0 ();
+
+.head {
+	text-align: center;
+	margin-top: 1.625rem;
+	border-bottom: 0.05rem solid #e7e7e7;
+	p {
+		font-size: 1.0rem;
+		margin-bottom: 0.625rem;
+
+	}
+}
+.daoheng(@a:0.875rem,@b:0.875rem) {
+	position: absolute;
+	
+	top: 1.625rem;
+	img {
+		width: @a;
+		height: @b;
+	}
+}
+.fanhui {
+	
+	left: 0.5rem;
+	.daoheng(0.35rem,0.6rem);
+}
+.icon1 {
+	
+	right: 0.5rem;
+	.daoheng();
+}
+.datu {
+	img{
+		width: 18.75rem;
+		height: 20.525rem;
+	}
+}
+.tuwen {
+	margin: 0 0.75rem;
+
+	p:nth-child(1){
+		font-size: 0.7rem;
+		margin-top: 0.625rem;
+	}
+	p:nth-child(2){
+		font-size: 0.8rem;
+		margin: 0.875rem 0;
+		color: red;
+	}
+	p:nth-child(3){
+		font-size: 0.7rem;
+		padding-bottom: 0.75rem;
+		margin-bottom: 0.75rem;
+		border-bottom: 0.05rem solid #ccc;
+	}
+}
+.xiangqi {
+	display: flex;
+	justify-content:space-around;
+	img {
+		width: 5.0rem;
+		height: 4.2rem;
+	}
+}
+.dibu {
+	width: 18.75rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	display: flex;
+	text-align: center;
+	color: #fff;
+	font-size: 0.75rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	div{
+		flex:1;
+	}
+	div:nth-child(1){
+		background: url(../images/11-20/14gou1.png) no-repeat center;
+		background-size: 100%;
+	}
+	div:nth-child(2){
+		background-color: #455e87;
+	}
+	div:nth-child(3){
+		background-color: #c8584a;
+	}
+}

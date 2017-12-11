@@ -1,0 +1,175 @@
+html {
+  font-size: 5.3333333333333vw;
+}
+.juzhong {
+  text-align: center;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: none;
+  vertical-align: top;
+  font-weight: normal;
+}
+.bottom {
+  width: 100%;
+  background-color: #f7f7fa;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom div {
+  flex: 1;
+}
+.bottom div:nth-child(1) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(1) div {
+  background: url('../images/1-5/6icon.png') no-repeat -7.125rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(1) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(2) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(2) div {
+  background: url('../images/1-5/6icon.png') no-repeat -8.5rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(2) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(3) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(3) div {
+  background: url('../images/1-5/6icon.png') no-repeat -10.25rem -0.15rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(3) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(4) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(4) div {
+  background: url('../images/1-5/6icon.png') no-repeat 0rem -1.85rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(4) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bottom div:nth-child(5) {
+  text-align: center;
+  margin-top: 0.375rem;
+}
+.bottom div:nth-child(5) div {
+  background: url('../images/1-5/6icon.png') no-repeat -1.75rem -1.55rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-size: 12.5rem;
+  margin-left: 1.125rem;
+}
+.bottom div:nth-child(5) p {
+  font-size: 0.65rem;
+  padding: 0.125rem 0 0.375rem 0;
+}
+.bg {
+  background: #f4f4f4;
+  width: 18.75rem;
+  height: 29.0rem;
+}
+.head {
+  text-align: center;
+  margin-top: 1.625rem;
+  border-bottom: 0.05rem solid #e7e7e7;
+}
+.head p {
+  font-size: 1.0rem;
+  margin-bottom: 0.625rem;
+}
+.fanhui {
+  left: 0.5rem;
+  position: absolute;
+  top: 1.625rem;
+}
+.fanhui img {
+  width: 0.35rem;
+  height: 0.6rem;
+}
+.head1 {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.head1 a {
+  font-size: 0.6rem;
+  padding-bottom: 0.5rem;
+  color: none;
+}
+.head1 a:nth-child(1) {
+  border-bottom: 0.05rem solid red;
+}
+.bg {
+  background: #f1f1f1;
+}
+.touxiang {
+  width: 18.75rem;
+  height: 13.875rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.touxiang div {
+  text-align: center;
+}
+.touxiang div img {
+  width: 8.2rem;
+  height: 11.35rem;
+  margin-top: 0.75rem;
+}
+.touxiang div div {
+  width: 8.2rem;
+  height: 2.5rem;
+  background: #fff;
+}
+.touxiang div div h4 {
+  font-size: 0.7rem;
+  padding-top: 0.25rem;
+}
+.touxiang div div img {
+  width: 0.525rem;
+  height: 0.55rem;
+  margin-top: 0.5rem;
+}
+.touxiang div div span {
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+}
